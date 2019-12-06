@@ -196,7 +196,8 @@ body {
 }
 .column .text{
     position: absolute;
-    z-index: 999;
+    z-index: 1;
+    display:block;
     margin: 0 auto;
     left: 15%;
     right: 0;
@@ -206,4 +207,10 @@ body {
     font-size:8px;
     color:white;
     background-color:#4aaaa5;
+
+}
+
+.footer {
+  position:fixed;
+  z-index:1;
 }
